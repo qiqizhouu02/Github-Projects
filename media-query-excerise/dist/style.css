@@ -1,0 +1,68 @@
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Create 2 equal columns */
+.figure {
+  flex: 25%;
+  padding: 20px;
+}
+
+/* If the screen size is 601px or more*/
+@media only screen and (min-width: 601px) {
+  h1{
+    font-size: 90px;
+    text-align: center;
+  }
+  .figure {
+  width: 35%;
+  display: inline-block;
+  text-align: center;
+}
+  .intro-text{
+    font-size: 60px;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+  }
+   body{
+background-color: lightblue;
+}
+ 
+}
+
+/* If the screen size is 600px or less */
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 45px;
+    text-align: center;
+  }
+  .row{
+    flex-direction:figure;
+  }
+  .intro-text{
+    font-size: 30px;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  h2{
+    text-align:  center;
+  }
+  
+   body{
+  background-color: white;
+}
+}
+
+
