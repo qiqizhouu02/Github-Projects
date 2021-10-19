@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Helvetica;
+  }
+  
+  .header {
+    background-color: purple;
+    height: 90px;
+  }
+  
+  .topNav{
+    position: relative;
+    height: 50px;
+    padding: 15px;
+  }
+
+  .leftSide {
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .Logo{
+    font-size: 30px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    font-weight:bold;
+
+  }
+
+  .searchBox{
+      width: 450px;
+      height: 44px;
+  }
+
+  .center{
+    width: 450px;
+    background-color: #E1E5F1;
+    border: 1px solid #C0C9DD;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    right: 100px;
+    box-shadow: none;
+    border-radius: 2px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rightSide {
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+  }
+
+  .menuItem {
+    display: inline-block;
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin: 15px;
+  }
+
+
+  /* Carousal */
+
+  .carousal{
+      flex-direction: row;
+      display: inline-block;
+      text-align:left;
+      background-color: #A9A9A9;
+      width: 100%;
+      height: 400px;
+  }
+
+  img.a{
+    object-fit: cover; 
+  }
+
+  .object{
+    display: inline-block;
+    width: 100%;
+  }
+
+  .ctext{
+      list-style:none;
+      color: white;
+      font-size:50px;
+      margin:20px;
+      font-weight:bold;
+      float: center;
+      position: absolute;
+      right: 75px;
+      top: 215px;
+  }
+
+  .texts{
+      list-style:none;
+      color: white;
+      font-size: 35px;
+      font-weight:200;
+      float: center;
+      position: absolute;
+      right: 80px;
+      top: 290px;
+
+  }
+
+  /* Catergories */
+  .catergories{
+    flex-direction: row;
+    display: inline-block;
+    position:relative;
+    height: 20px;
+    width: 100%;
+  }
+
+  .item {
+      list-style: none;
+      padding: 20px;
+      font-size: 15px;
+      float: left;
+      color:black;
+      opacity: 0.75;
+
+  }
+
+   /* Carousal 2 */
+
+   img.b{
+    height:400px;
+    width:100%;
+    object-fit: cover; 
+  }
+
+  h4{
+      font-size:25px;
+  }
+
+  .text-block{
+      position: absolute;
+      bottom: 30px;
+      right: 5px;
+      color: white;
+      padding-left: 30px;
+      padding-right: 30px;
+
+  }
+
+  /* If the screen size is 1000px or more
+  @media only screen and (min-width: 1000px) {
+
+  }
+  /* If the screen size is 601px or more*/
+  @media only screen and (max-width: 999px) {}
+  /* If the screen size is 600px or less */
+  @media only screen and (max-width: 600px) {
+
+    
+  } 
